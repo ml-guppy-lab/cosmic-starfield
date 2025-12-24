@@ -1,0 +1,23 @@
+step1:  create .gitignore
+
+step 2: create virtual environment folder
+        python3 -m venv .venv
+
+step 3: Activate environment
+        source .venv/bin/activate 
+
+step 4: create requirements.txt
+
+step 5: upgrade pip
+        pip install --upgrade pip
+
+step 6: install dependencies
+        pip install -r requirements.txt
+
+step 7: create starfield.py and write the code for image generation
+
+step 8: create animate_starfield.py and write the code for animation
+
+step 9: to run files:
+        python starfield.py
+        python animate_starfield.py
